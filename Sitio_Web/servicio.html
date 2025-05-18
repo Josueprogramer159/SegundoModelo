@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            font-size: 50px;
+            text-align: center;
+            display: block;
+            color: rgb(82, 184, 215);
+        }
+
+        .cajaInformacion {
+            width: 400px;
+            height: 50px;
+            margin-bottom: 10px;
+            background-color: white;
+            text-align: center;
+            border: 1px solid rgb(44, 102, 229);
+            border-radius: 4px;
+            font-size: 20px;
+        }
+
+        .botonEnviar {
+            font-size: 30px;
+            border: 1px solid;
+            background-color: yellow;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(44, 102, 229);">
+    <h1>Servicio al cliente</h1>
+    <form style="text-align: center; font-size: 40px; color: rgb(82, 184, 215);">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required placeholder="Ingrese su nombre" class="cajaInformacion"><br><br>
+
+        <label for="celular">Celular:</label><br>
+        <input type="text" id="celular" name="celular" required placeholder="Ingrese su celular" class="cajaInformacion"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required placeholder="Ingrese su email" class="cajaInformacion"><br><br>
+
+        <label for="mensaje">Escriba su mensaje:</label><br>
+        <textarea placeholder="Escriba aquí su mensaje" rows="10" cols="60" style="font-size: 30px;">Buenas tardes mi nombre es</textarea><br>
+
+        <input type="submit" value="Enviar" class="botonEnviar">
+    </form>
+</body>
+</html>
